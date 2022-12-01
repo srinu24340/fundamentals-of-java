@@ -1,0 +1,17 @@
+//Product and Division
+import java.util.*;
+public class ProDiv
+{
+    public static void main(String args[])
+    {
+   Scanner test=new Scanner(System.in);
+   int a=test.nextInt();
+   int b=test.nextInt();
+   int pro=a*b;
+   int div=a/b;
+   int mod=a%b;
+   System.out.println(pro);
+   System.out.println(div);
+   System.out.println(mod);
+    }
+}
